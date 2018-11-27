@@ -47,7 +47,7 @@ int main()
 //function definitions
 bool isPositive(int numValue)
 {
-if(numValue % 2 == 0 && numValue > 0)
+if(numValue > 0)
 {
   return true;
 }
